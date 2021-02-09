@@ -1,0 +1,13 @@
+.l {
+  border: 2px solid turquoise;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+  max-width: 1100px;
+  justify-self: start;
+}

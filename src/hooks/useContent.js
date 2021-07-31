@@ -13,11 +13,11 @@ function useContent(targetContent) {
       .then((querySnapshot) => {
         console.log(querySnapshot);
         const allContent = querySnapshot.docs.map((doc) => {
-          return { id: doc.id, data: doc.data() };
+          return { id: doc.id, ...doc.data() };
         });
 
         setContent(allContent);
-        console.log(allContent);
+        // console.log(allContent);
       })
       .catch((error) => {
         console.log(error.message);

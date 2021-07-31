@@ -2,7 +2,6 @@ import styled from 'styled-components/macro';
 import { Link as ReactRouterLink } from 'react-router-dom';
 
 export const Container = styled.div`
-  //   border: 2px solid turquoise;
   display: flex;
   flex-direction: column;
   height: 600px;
@@ -18,7 +17,6 @@ export const Container = styled.div`
 `;
 
 export const Base = styled.form`
-  //   border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

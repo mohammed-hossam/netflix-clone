@@ -1,7 +1,6 @@
 import styled from 'styled-components/macro';
 
 export const Container = styled.div`
-  // border: 2px solid yellow;
   display: flex;
   padding: 70px 56px;
   margin: auto;
@@ -14,14 +13,12 @@ export const Container = styled.div`
 `;
 
 export const Column = styled.div`
-  // border: 2px solid green;
   display: flex;
   flex-direction: column;
   text-align: left;
 `;
 
 export const Row = styled.div`
-  // border: 2px solid red;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 20px;
@@ -32,7 +29,6 @@ export const Row = styled.div`
 `;
 
 export const Link = styled.a`
-  // border: 2px solid blue;
   color: #757575;
   margin-bottom: 20px;
   font-size: 13px;
@@ -40,15 +36,12 @@ export const Link = styled.a`
 `;
 
 export const Title = styled.p`
-  // border: 2px solid orange;
-
   font-size: 16px;
   color: #757575;
   margin-bottom: 40px;
 `;
 
 export const Text = styled.p`
-  // border: 2px solid turquoise;
   font-size: 13px;
   color: #757575;
   margin-bottom: 40px;

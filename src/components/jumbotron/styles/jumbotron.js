@@ -10,7 +10,6 @@ export const Inner = styled.div`
   width: 100%;
   margin: auto;
   max-width: 1100px;
-  border: 2px solid blue;
 
   @media (max-width: 1000px) {
     flex-direction: column;
@@ -58,11 +57,9 @@ export const Item = styled.div`
   padding: 50px 5%;
   color: white;
   overflow: hidden;
-  border: 2px solid red;
 `;
 
 export const Container = styled.div`
-  border: 2px solid yellow;
   @media (max-width: 1000px) {
     ${Item}:last-of-type h2 {
       margin-bottom: 50px;

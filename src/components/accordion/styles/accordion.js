@@ -1,13 +1,11 @@
 import styled from 'styled-components/macro';
 
 export const Container = styled.div`
-  border: 2px solid turquoise;
   display: flex;
   border-bottom: 8px solid #222;
 `;
 
 export const Inner = styled.div`
-  border: 2px solid red;
   display: flex;
   padding: 70px 45px;
   flex-direction: column;
@@ -29,8 +27,6 @@ export const Title = styled.h1`
 `;
 
 export const Item = styled.div`
-  border: 2px solid blue;
-
   color: white;
   margin-bottom: 10px;
   margin: auto;
